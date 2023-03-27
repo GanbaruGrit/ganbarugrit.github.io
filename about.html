@@ -58,7 +58,14 @@
 									<h3 class="major">Hi :)</h3>
 
 									<div>
-									<p style="float: right;"><img style="width:426px;height:585px;" src="images/profile_pics/headshot_stoic_rounded_small.png" alt=""  border="10px"></p>
+										<!-- <img style="width:auto;height:auto;" src="images/profile_pics/headshot_stoic_rounded_small.png" alt=""  border="10px"> -->
+										<picture>
+											
+											<source media="(min-width: 650px)" srcset="images/profile_pics/headshot_stoic_rounded_small.png">
+											
+											<source media="(min-width: 365px)" srcset="images/profile_pics/headshot_stoic_mobile.png">
+											<img src="images/profile_pics/headshot_stoic_rounded_small.png" style="float: right; width:auto; padding:5px 5px 5px 5px;">
+										</picture>
 									<p>I am equal parts engineer, communicator, and designer.</p>
 									<p>I've spent years cultivating a varied skillset that allowed me to grow and develop my technical abilities as well as my interpersonal and communication qualities.</p>
 									
@@ -66,6 +73,8 @@
 
 									<p>While in various R&D roles, I've developed as a well versed software engineer with experience in both front and back end environments, client and server services, and multiple build pipelines.</p>
 
+									
+									
 									<p>These experiences, along with a lifelong insatiable passion for game development, have coalesced to evolve me into a game developer who is fully equipped to work solo on self-directed projects or can quickly become an integral and positive force on a team.</p>
 									</div>
 
@@ -128,7 +137,7 @@
 								<!-- <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li> -->
 							</ul>
 							<ul class="copyright">
-								<li>&copy; DharmaPunkGames Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; DharmaPunkGames Inc. All rights reserved.</li>
 							</ul>
 						</div>
 					</section>
